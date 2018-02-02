@@ -7,7 +7,7 @@ int main()
     scanf("%d",&q);
     scanf("%d", &n);
     
-    for(i=q; i<=n; i++)
+    for(i=q + 1 ; i<n; i++)
     {
         
         if(i%2 == 0)
